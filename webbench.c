@@ -327,7 +327,7 @@ static int bench(void)
 	   {
 		   /* child process or error*/
 	           sleep(1); /* make childs faster */
-		   break;
+		   break; //// 子进程退出循环，执行下面的代码
 	   }
   }
 
